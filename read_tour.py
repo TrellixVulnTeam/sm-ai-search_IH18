@@ -3,17 +3,21 @@
 # Creation Date: 2017-12-18 21:20
 # Purpose: This script loads tour text files, as required for the assignment, and stores them in a suitable data format.
 
-# Import re for regex when we parse the file
+# Import `re` for regex when we parse the file
+# Import `os` for reading the file
 import re
+import os
 
 def get_cities(file_path):
     """
     Parses a search file and returns the distance between cities.
     :param file_path: String. The path of the file to parse
-    :return: If unsuccessful, a simple tuple (False, error_string), otherwise a tuple (True, name, size, cities)
-              where cities is a two-dimensional array
+    :return: A tuple `(True, name, size, cities)` where `cities` is a two-dimensional array if successful, otherwise
+             a tuple `(False, error_string, None, None)` if unsuccessful
     """
     # Open and read the text file
+    if not os.path.exists(file_path):
+        return False, "File not found", None, None
     data_file = open(file_path, "r")
     data_text = data_file.read()
     data_file.close()
@@ -55,6 +59,7 @@ def get_cities(file_path):
             for j in range(i + 1, size):
                 # We use i+1 and j+1 to transform our iterator counters to
                 # (1,2), (1,3), ..., (1,n), (2,3), (2,4), ..., (2,n), ..., (n-1,n)
+
                 # print((i+1,j+1), counter, int(city_split[counter-1]))
 
                 cities[i + 1][j + 1] = int(city_split[counter - 1])
