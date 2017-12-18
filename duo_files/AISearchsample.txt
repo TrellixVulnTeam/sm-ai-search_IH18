@@ -1,0 +1,6 @@
+NAME = AISearchsample,
+SIZE = 5,
+3, 4, 3, 4,
+5, 6, 5,
+5, 8,
+5
