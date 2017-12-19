@@ -5,6 +5,6 @@
 
 import read_tour
 
-tour_data, name, size, cities = read_tour.get_cities("duo_files/AISearchfile012.txt")
-# print(tour_data, name, size, cities)
-
+tour_data, name, size, cities = read_tour.get_cities("duo_files/AISearchfile535.txt")
+print(tour_data, name, size)
+[print(cities[x]) for x in range(len(cities))]

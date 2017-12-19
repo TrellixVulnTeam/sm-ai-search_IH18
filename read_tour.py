@@ -72,4 +72,8 @@ def get_cities(file_path):
 
 # If we're running this module directly
 if __name__ == "__main__":
-    print(get_cities("duo_files/AISearchfile535.txt"))
+    filename = "duo_files/AISearchtestcase.txt"
+    # filename = "duo_files/AISearchfile012.txt"
+    tour_data, name, size, cities = get_cities(filename)
+    print(tour_data, name, size)
+    [print(cities[x]) for x in range(len(cities))]
