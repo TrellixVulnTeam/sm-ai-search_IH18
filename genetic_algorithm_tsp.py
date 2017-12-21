@@ -9,10 +9,10 @@ from time import time
 import sys
 
 class TourManager:
-    # Holds our cities
+    # Holds our cities 1,...,n
     destination_cities = []
 
-    # Holds our cities in a 2D array
+    # Holds our city distances in a 2D array
     cities2d = [[]]
 
     def add_city(self, city: int):
@@ -396,7 +396,6 @@ class TSP_GA:
         print(best_output)
         print("-----")
 
-        # output_file_name = file_name.split("/")[len(file_name.split("/")) - 1]
         output_file_name = sys.argv[2]
         f = open(output_file_name, "w")
         f.write(best_output)
@@ -404,19 +403,6 @@ class TSP_GA:
 
 
 if __name__ == "__main__":
-    # list_of_files = [
-    #     "duo_files/AISearchfile012.txt",
-    #     "duo_files/AISearchfile017.txt",
-    #     "duo_files/AISearchfile021.txt",
-    #     "duo_files/AISearchfile026.txt"#,
-    #     # "duo_files/AISearchfile042.txt",
-    #     # "duo_files/AISearchfile048.txt",
-    #     # "duo_files/AISearchfile058.txt",
-    #     # "duo_files/AISearchfile175.txt",
-    #     # "duo_files/AISearchfile180.txt",
-    #     # "duo_files/AISearchfile535.txt"
-    # ]
-    # for x in list_of_files:
     print()
     print()
     print()

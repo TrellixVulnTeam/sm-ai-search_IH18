@@ -2,8 +2,235 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="924eea21-1faa-4c84-bc66-840e28196df2" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/batch_loop.bat" afterPath="$PROJECT_DIR$/batch_loop.bat" />
+      <change beforePath="$PROJECT_DIR$/batch_sa_python.py" afterPath="$PROJECT_DIR$/batch_sa_python.py" />
       <change beforePath="$PROJECT_DIR$/genetic_algorithm_tsp.py" afterPath="$PROJECT_DIR$/genetic_algorithm_tsp.py" />
+      <change beforePath="$PROJECT_DIR$/simulated_annealing.py" afterPath="$PROJECT_DIR$/simulated_annealing.py" />
+      <change beforePath="$PROJECT_DIR$/tours/protected/tourAISearchfile012.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tours/protected/tourAISearchfile017.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tours/protected/tourAISearchfile021.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tours/protected/tourAISearchfile026.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tours/protected/tourAISearchfile042.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tours/protected/tourAISearchfile048.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tours/protected/tourAISearchfile058.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tours/protected/tourAISearchfile175.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tours/protected/tourAISearchfile180.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tours/protected/tourAISearchfile535.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/trace.txt" afterPath="$PROJECT_DIR$/validation/trace.txt" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-1,cooling-rate-0.003/tourAISearchfile012.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-1,cooling-rate-0.003/tourAISearchfile017.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-1,cooling-rate-0.003/tourAISearchfile021.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-1,cooling-rate-0.003/tourAISearchfile026.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-1,cooling-rate-0.003/tourAISearchfile042.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-1,cooling-rate-0.003/tourAISearchfile048.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-1,cooling-rate-0.003/tourAISearchfile058.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-1,cooling-rate-0.003/tourAISearchfile175.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-1,cooling-rate-0.003/tourAISearchfile180.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-1,cooling-rate-0.003/tourAISearchfile535.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-10,cooling-rate-0.003/tourAISearchfile012.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-10,cooling-rate-0.003/tourAISearchfile017.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-10,cooling-rate-0.003/tourAISearchfile021.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-10,cooling-rate-0.003/tourAISearchfile026.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-10,cooling-rate-0.003/tourAISearchfile042.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-10,cooling-rate-0.003/tourAISearchfile048.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-10,cooling-rate-0.003/tourAISearchfile058.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-10,cooling-rate-0.003/tourAISearchfile175.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-10,cooling-rate-0.003/tourAISearchfile180.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-10,cooling-rate-0.003/tourAISearchfile535.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-100,cooling-rate-0.003/tourAISearchfile012.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-100,cooling-rate-0.003/tourAISearchfile017.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-100,cooling-rate-0.003/tourAISearchfile021.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-100,cooling-rate-0.003/tourAISearchfile026.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-100,cooling-rate-0.003/tourAISearchfile042.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-100,cooling-rate-0.003/tourAISearchfile048.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-100,cooling-rate-0.003/tourAISearchfile058.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-100,cooling-rate-0.003/tourAISearchfile175.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-100,cooling-rate-0.003/tourAISearchfile180.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-100,cooling-rate-0.003/tourAISearchfile535.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-1000,cooling-rate-0.003/tourAISearchfile012.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-1000,cooling-rate-0.003/tourAISearchfile017.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-1000,cooling-rate-0.003/tourAISearchfile021.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-1000,cooling-rate-0.003/tourAISearchfile026.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-1000,cooling-rate-0.003/tourAISearchfile042.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-1000,cooling-rate-0.003/tourAISearchfile048.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-1000,cooling-rate-0.003/tourAISearchfile058.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-1000,cooling-rate-0.003/tourAISearchfile175.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-1000,cooling-rate-0.003/tourAISearchfile180.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-1000,cooling-rate-0.003/tourAISearchfile535.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-10000,cooling-rate-0.001/tourAISearchfile012.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-10000,cooling-rate-0.001/tourAISearchfile017.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-10000,cooling-rate-0.001/tourAISearchfile021.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-10000,cooling-rate-0.001/tourAISearchfile026.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-10000,cooling-rate-0.001/tourAISearchfile042.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-10000,cooling-rate-0.001/tourAISearchfile048.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-10000,cooling-rate-0.001/tourAISearchfile058.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-10000,cooling-rate-0.001/tourAISearchfile175.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-10000,cooling-rate-0.001/tourAISearchfile180.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-10000,cooling-rate-0.001/tourAISearchfile535.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-10000,cooling-rate-0.003/tourAISearchfile012.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-10000,cooling-rate-0.003/tourAISearchfile017.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-10000,cooling-rate-0.003/tourAISearchfile021.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-10000,cooling-rate-0.003/tourAISearchfile026.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-10000,cooling-rate-0.003/tourAISearchfile042.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-10000,cooling-rate-0.003/tourAISearchfile048.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-10000,cooling-rate-0.003/tourAISearchfile058.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-10000,cooling-rate-0.003/tourAISearchfile175.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-10000,cooling-rate-0.003/tourAISearchfile180.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-10000,cooling-rate-0.003/tourAISearchfile535.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-10000,cooling-rate-0.007/tourAISearchfile012.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-10000,cooling-rate-0.007/tourAISearchfile017.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-10000,cooling-rate-0.007/tourAISearchfile021.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-10000,cooling-rate-0.007/tourAISearchfile026.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-10000,cooling-rate-0.007/tourAISearchfile042.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-10000,cooling-rate-0.007/tourAISearchfile048.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-10000,cooling-rate-0.007/tourAISearchfile058.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-10000,cooling-rate-0.007/tourAISearchfile175.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-10000,cooling-rate-0.007/tourAISearchfile180.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-10000,cooling-rate-0.007/tourAISearchfile535.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-10000,cooling-rate-0.020/tourAISearchfile012.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-10000,cooling-rate-0.020/tourAISearchfile017.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-10000,cooling-rate-0.020/tourAISearchfile021.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-10000,cooling-rate-0.020/tourAISearchfile026.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-10000,cooling-rate-0.020/tourAISearchfile042.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-10000,cooling-rate-0.020/tourAISearchfile048.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-10000,cooling-rate-0.020/tourAISearchfile058.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-10000,cooling-rate-0.020/tourAISearchfile175.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-10000,cooling-rate-0.020/tourAISearchfile180.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-10000,cooling-rate-0.020/tourAISearchfile535.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-10000,cooling-rate-0.08/tourAISearchfile012.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-10000,cooling-rate-0.08/tourAISearchfile017.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-10000,cooling-rate-0.08/tourAISearchfile021.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-10000,cooling-rate-0.08/tourAISearchfile026.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-10000,cooling-rate-0.08/tourAISearchfile042.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-10000,cooling-rate-0.08/tourAISearchfile048.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-10000,cooling-rate-0.08/tourAISearchfile058.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-10000,cooling-rate-0.08/tourAISearchfile175.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-10000,cooling-rate-0.08/tourAISearchfile180.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-10000,cooling-rate-0.08/tourAISearchfile535.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-10000,cooling-rate-0.200/tourAISearchfile012.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-10000,cooling-rate-0.200/tourAISearchfile017.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-10000,cooling-rate-0.200/tourAISearchfile021.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-10000,cooling-rate-0.200/tourAISearchfile026.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-10000,cooling-rate-0.200/tourAISearchfile042.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-10000,cooling-rate-0.200/tourAISearchfile048.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-10000,cooling-rate-0.200/tourAISearchfile058.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-10000,cooling-rate-0.200/tourAISearchfile175.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-10000,cooling-rate-0.200/tourAISearchfile180.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-10000,cooling-rate-0.200/tourAISearchfile535.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-10000,cooling-rate-0.400/tourAISearchfile012.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-10000,cooling-rate-0.400/tourAISearchfile017.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-10000,cooling-rate-0.400/tourAISearchfile021.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-10000,cooling-rate-0.400/tourAISearchfile026.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-10000,cooling-rate-0.400/tourAISearchfile042.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-10000,cooling-rate-0.400/tourAISearchfile048.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-10000,cooling-rate-0.400/tourAISearchfile058.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-10000,cooling-rate-0.400/tourAISearchfile175.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-10000,cooling-rate-0.400/tourAISearchfile180.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-10000,cooling-rate-0.400/tourAISearchfile535.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-100000,cooling-rate-0.001/tourAISearchfile012.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-100000,cooling-rate-0.001/tourAISearchfile017.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-100000,cooling-rate-0.001/tourAISearchfile021.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-100000,cooling-rate-0.001/tourAISearchfile026.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-100000,cooling-rate-0.001/tourAISearchfile042.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-100000,cooling-rate-0.001/tourAISearchfile048.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-100000,cooling-rate-0.001/tourAISearchfile058.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-100000,cooling-rate-0.001/tourAISearchfile175.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-100000,cooling-rate-0.001/tourAISearchfile180.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-100000,cooling-rate-0.001/tourAISearchfile535.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-100000,cooling-rate-0.003/tourAISearchfile012.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-100000,cooling-rate-0.003/tourAISearchfile017.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-100000,cooling-rate-0.003/tourAISearchfile021.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-100000,cooling-rate-0.003/tourAISearchfile026.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-100000,cooling-rate-0.003/tourAISearchfile042.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-100000,cooling-rate-0.003/tourAISearchfile048.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-100000,cooling-rate-0.003/tourAISearchfile058.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-100000,cooling-rate-0.003/tourAISearchfile175.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-100000,cooling-rate-0.003/tourAISearchfile180.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-100000,cooling-rate-0.003/tourAISearchfile535.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-100000,cooling-rate-0.007/tourAISearchfile012.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-100000,cooling-rate-0.007/tourAISearchfile017.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-100000,cooling-rate-0.007/tourAISearchfile021.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-100000,cooling-rate-0.007/tourAISearchfile026.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-100000,cooling-rate-0.007/tourAISearchfile042.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-100000,cooling-rate-0.007/tourAISearchfile048.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-100000,cooling-rate-0.007/tourAISearchfile058.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-100000,cooling-rate-0.007/tourAISearchfile175.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-100000,cooling-rate-0.007/tourAISearchfile180.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-100000,cooling-rate-0.007/tourAISearchfile535.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-100000,cooling-rate-0.020/tourAISearchfile012.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-100000,cooling-rate-0.020/tourAISearchfile017.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-100000,cooling-rate-0.020/tourAISearchfile021.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-100000,cooling-rate-0.020/tourAISearchfile026.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-100000,cooling-rate-0.020/tourAISearchfile042.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-100000,cooling-rate-0.020/tourAISearchfile048.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-100000,cooling-rate-0.020/tourAISearchfile058.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-100000,cooling-rate-0.020/tourAISearchfile175.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-100000,cooling-rate-0.020/tourAISearchfile180.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-100000,cooling-rate-0.020/tourAISearchfile535.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-1000000,cooling-rate-0.001/tourAISearchfile012.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-1000000,cooling-rate-0.001/tourAISearchfile017.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-1000000,cooling-rate-0.001/tourAISearchfile021.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-1000000,cooling-rate-0.001/tourAISearchfile026.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-1000000,cooling-rate-0.001/tourAISearchfile042.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-1000000,cooling-rate-0.001/tourAISearchfile048.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-1000000,cooling-rate-0.001/tourAISearchfile058.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-1000000,cooling-rate-0.001/tourAISearchfile175.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-1000000,cooling-rate-0.003/tourAISearchfile012.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-1000000,cooling-rate-0.003/tourAISearchfile017.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-1000000,cooling-rate-0.003/tourAISearchfile021.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-1000000,cooling-rate-0.003/tourAISearchfile026.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-1000000,cooling-rate-0.003/tourAISearchfile042.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-1000000,cooling-rate-0.003/tourAISearchfile048.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-1000000,cooling-rate-0.003/tourAISearchfile058.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-1000000,cooling-rate-0.003/tourAISearchfile175.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-1000000,cooling-rate-0.003/tourAISearchfile180.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-1000000,cooling-rate-0.003/tourAISearchfile535.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-1000000,cooling-rate-0.007/tourAISearchfile012.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-1000000,cooling-rate-0.007/tourAISearchfile017.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-1000000,cooling-rate-0.007/tourAISearchfile021.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-1000000,cooling-rate-0.007/tourAISearchfile026.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-1000000,cooling-rate-0.007/tourAISearchfile042.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-1000000,cooling-rate-0.007/tourAISearchfile048.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-1000000,cooling-rate-0.007/tourAISearchfile058.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-1000000,cooling-rate-0.020/tourAISearchfile012.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-1000000,cooling-rate-0.020/tourAISearchfile017.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-1000000,cooling-rate-0.020/tourAISearchfile021.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-1000000,cooling-rate-0.020/tourAISearchfile026.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-1000000,cooling-rate-0.020/tourAISearchfile042.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-1000000,cooling-rate-0.020/tourAISearchfile048.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-1000000,cooling-rate-0.020/tourAISearchfile058.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-1000000,cooling-rate-0.08/tourAISearchfile012.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-1000000,cooling-rate-0.08/tourAISearchfile017.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-1000000,cooling-rate-0.08/tourAISearchfile021.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-1000000,cooling-rate-0.08/tourAISearchfile026.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-1000000,cooling-rate-0.08/tourAISearchfile042.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-1000000,cooling-rate-0.08/tourAISearchfile048.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-1000000,cooling-rate-0.08/tourAISearchfile058.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-1000000,cooling-rate-0.200/tourAISearchfile012.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-1000000,cooling-rate-0.200/tourAISearchfile017.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-1000000,cooling-rate-0.200/tourAISearchfile021.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-1000000,cooling-rate-0.200/tourAISearchfile026.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-1000000,cooling-rate-0.200/tourAISearchfile042.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-1000000,cooling-rate-0.200/tourAISearchfile048.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-1000000,cooling-rate-0.200/tourAISearchfile058.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-1000000,cooling-rate-0.400/tourAISearchfile012.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-1000000,cooling-rate-0.400/tourAISearchfile017.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-1000000,cooling-rate-0.400/tourAISearchfile021.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-1000000,cooling-rate-0.400/tourAISearchfile026.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-1000000,cooling-rate-0.400/tourAISearchfile042.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-1000000,cooling-rate-0.400/tourAISearchfile048.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/temp-1000000,cooling-rate-0.400/tourAISearchfile058.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/tourAISearchfile012.txt" afterPath="$PROJECT_DIR$/validation/vzbf32/TourfileA/tourAISearchfile012.txt" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/tourAISearchfile017.txt" afterPath="$PROJECT_DIR$/validation/vzbf32/TourfileA/tourAISearchfile017.txt" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/tourAISearchfile021.txt" afterPath="$PROJECT_DIR$/validation/vzbf32/TourfileA/tourAISearchfile021.txt" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/tourAISearchfile026.txt" afterPath="$PROJECT_DIR$/validation/vzbf32/TourfileA/tourAISearchfile026.txt" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/tourAISearchfile042.txt" afterPath="$PROJECT_DIR$/validation/vzbf32/TourfileA/tourAISearchfile042.txt" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/tourAISearchfile048.txt" afterPath="$PROJECT_DIR$/validation/vzbf32/TourfileA/tourAISearchfile048.txt" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/tourAISearchfile058.txt" afterPath="$PROJECT_DIR$/validation/vzbf32/TourfileA/tourAISearchfile058.txt" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/tourAISearchfile175.txt" afterPath="$PROJECT_DIR$/validation/vzbf32/TourfileA/tourAISearchfile175.txt" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/tourAISearchfile180.txt" afterPath="$PROJECT_DIR$/validation/vzbf32/TourfileA/tourAISearchfile180.txt" />
+      <change beforePath="$PROJECT_DIR$/validation/vzbf32/TourfileA/tourAISearchfile535.txt" afterPath="$PROJECT_DIR$/validation/vzbf32/TourfileA/tourAISearchfile535.txt" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,7 +243,7 @@
     <SUITE FILE_PATH="coverage/sm_ai_search$random_test.coverage" NAME="random_test Coverage Results" MODIFIED="1513698380675" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/sm_ai_search$thing.coverage" NAME="thing Coverage Results" MODIFIED="1513701512012" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/sm_ai_search$genetic_algorithm.coverage" NAME="genetic_algorithm Coverage Results" MODIFIED="1513707519868" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/sm_ai_search$simulated_annealing.coverage" NAME="simulated_annealing Coverage Results" MODIFIED="1513796316686" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/sm_ai_search$simulated_annealing.coverage" NAME="simulated_annealing Coverage Results" MODIFIED="1513875123130" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/sm_ai_search$genetic_algorithm_tsp.coverage" NAME="genetic_algorithm_tsp Coverage Results" MODIFIED="1513720335536" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/sm_ai_search$read_tour.coverage" NAME="read_tour Coverage Results" MODIFIED="1513690364194" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
@@ -25,8 +252,8 @@
       <file leaf-file-name="batch_loop.bat" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/batch_loop.bat">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+            <state relative-caret-position="375">
+              <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -35,11 +262,19 @@
       <file leaf-file-name="genetic_algorithm_tsp.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/genetic_algorithm_tsp.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="399" column="38" lean-forward="false" selection-start-line="399" selection-start-column="38" selection-end-line="399" selection-end-column="38" />
-              <folding>
-                <element signature="e#175#188#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="195">
+              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="genetic_algorithm_tsp_heavy.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/genetic_algorithm_tsp_heavy.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="678">
+              <caret line="198" column="23" lean-forward="false" selection-start-line="198" selection-start-column="23" selection-end-line="198" selection-end-column="23" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -47,8 +282,8 @@
       <file leaf-file-name="batch_loop_sa.bat" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/batch_loop_sa.bat">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="133" />
+            <state relative-caret-position="315">
+              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -57,10 +292,10 @@
       <file leaf-file-name="simulated_annealing.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/simulated_annealing.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="167" column="0" lean-forward="false" selection-start-line="167" selection-start-column="0" selection-end-line="167" selection-end-column="0" />
+            <state relative-caret-position="379">
+              <caret line="265" column="26" lean-forward="true" selection-start-line="265" selection-start-column="26" selection-end-line="265" selection-end-column="26" />
               <folding>
-                <element signature="e#189#205#0" expanded="true" />
+                <element signature="e#189#200#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -69,8 +304,8 @@
       <file leaf-file-name="read_tour.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/read_tour.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="678">
-              <caret line="78" column="6" lean-forward="false" selection-start-line="78" selection-start-column="6" selection-end-line="78" selection-end-column="6" />
+            <state relative-caret-position="214">
+              <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -79,8 +314,8 @@
       <file leaf-file-name="batch_sa_python.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/batch_sa_python.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="43" lean-forward="false" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
+            <state relative-caret-position="60">
+              <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -117,10 +352,10 @@
         <option value="$PROJECT_DIR$/validtourcheck_README.txt" />
         <option value="$PROJECT_DIR$/genetic_algorithm_tsp_heavy.py" />
         <option value="$PROJECT_DIR$/batch_loop_sa.bat" />
-        <option value="$PROJECT_DIR$/batch_sa_python.py" />
         <option value="$PROJECT_DIR$/read_tour.py" />
-        <option value="$PROJECT_DIR$/simulated_annealing.py" />
         <option value="$PROJECT_DIR$/genetic_algorithm_tsp.py" />
+        <option value="$PROJECT_DIR$/simulated_annealing.py" />
+        <option value="$PROJECT_DIR$/batch_sa_python.py" />
         <option value="$PROJECT_DIR$/batch_loop.bat" />
       </list>
     </option>
@@ -132,10 +367,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2452" />
-    <option name="y" value="55" />
-    <option name="width" value="755" />
-    <option name="height" value="1001" />
+    <option name="x" value="-7" />
+    <option name="width" value="974" />
+    <option name="height" value="1057" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -174,7 +408,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -192,6 +425,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -352,16 +586,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="47" width="1296" height="1010" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13651498" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12748171" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="WINDOWED" visible="false" show_stripe_button="true" weight="0.25496343" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" x="1920" y="78" width="1280" height="971" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291536" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10859375" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.119791664" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -384,7 +618,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
@@ -392,7 +628,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="41" lean-forward="false" selection-start-line="3" selection-start-column="41" selection-end-line="3" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -400,7 +635,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="53" lean-forward="false" selection-start-line="3" selection-start-column="53" selection-end-line="3" selection-end-column="53" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -408,7 +642,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -416,7 +649,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -663,7 +895,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -671,7 +902,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="41" lean-forward="false" selection-start-line="3" selection-start-column="41" selection-end-line="3" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -679,7 +909,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="53" lean-forward="false" selection-start-line="3" selection-start-column="53" selection-end-line="3" selection-end-column="53" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -687,7 +916,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="18" lean-forward="false" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -695,7 +923,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -703,66 +930,63 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/read_tour.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/genetic_algorithm_tsp_heavy.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="753">
-          <caret line="197" column="25" lean-forward="false" selection-start-line="197" selection-start-column="25" selection-end-line="197" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/batch_loop_sa.bat">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="133" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/read_tour.py">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="678">
-          <caret line="78" column="6" lean-forward="false" selection-start-line="78" selection-start-column="6" selection-end-line="78" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/batch_sa_python.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="43" lean-forward="false" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
+          <caret line="198" column="23" lean-forward="false" selection-start-line="198" selection-start-column="23" selection-end-line="198" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/simulated_annealing.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="167" column="0" lean-forward="false" selection-start-line="167" selection-start-column="0" selection-end-line="167" selection-end-column="0" />
+        <state relative-caret-position="379">
+          <caret line="265" column="26" lean-forward="true" selection-start-line="265" selection-start-column="26" selection-end-line="265" selection-end-column="26" />
           <folding>
-            <element signature="e#189#205#0" expanded="true" />
+            <element signature="e#189#200#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/genetic_algorithm_tsp.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="399" column="38" lean-forward="false" selection-start-line="399" selection-start-column="38" selection-end-line="399" selection-end-column="38" />
-          <folding>
-            <element signature="e#175#188#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="195">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/batch_loop_sa.bat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/batch_sa_python.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/batch_loop.bat">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        <state relative-caret-position="375">
+          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding />
         </state>
       </provider>

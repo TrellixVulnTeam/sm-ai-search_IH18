@@ -3,6 +3,7 @@
 # Creation Date: 2017-12-18 23:38
 # Purpose: This script performs a simulated annealing algorithm on city data to find optimum tours.
 
+import copy
 import read_tour
 import random
 import sys
@@ -11,16 +12,12 @@ from time import time
 import os
 import errno
 
-#tour_data, name, size, cities = read_tour.get_cities("duo_files/AISearchfile535.txt")
-#print(tour_data, name, size)
-#[print(cities[x]) for x in range(len(cities))]
-
 
 class TourManager:
-    # Holds our cities
+    # Holds our cities 1,...,n
     destination_cities = []
 
-    # Holds our cities in a 2D array
+    # Holds our city distances in a 2D array
     cities2d = [[]]
 
     def add_city(self, city):
@@ -62,7 +59,7 @@ class Tour:
         self.distance = 0
 
         if tour is not None:
-            self.tour = tour
+            self.tour = copy.copy(tour)
         else:
             # Construct a blank tour
             tm = TourManager()
@@ -161,7 +158,7 @@ class SimulatedAnnealing:
         """
         # If the new solution is better, accept it
         if new_energy < energy:
-            return 1
+            return 1.0
 
         # If the new solution is worse, calculate an acceptance probability
         return math.exp( (energy - new_energy) / temperature)
@@ -191,8 +188,6 @@ class SimulatedAnnealing:
         # Set initial temp
         temp = 10000
 
-        # Cooling rate
-        # cooling_rate = 0.003
         cooling_rate = float(sys.argv[4])
 
         #####
@@ -201,7 +196,6 @@ class SimulatedAnnealing:
         best_distance = 100000000
         best_solution = []
         best_output = ""
-        # num_simulations = 20000
         num_simulations = int(sys.argv[3])
         t_00 = time()
         for j in range(num_simulations):
@@ -209,20 +203,9 @@ class SimulatedAnnealing:
             if j % (num_simulations/10) == 0:
                 print("Completed: " + str(int(100*j/num_simulations)) + "% of this simulation")
 
-                # if i % (N/10) == 0:
-                #     print("Completed: " + str(int(100*i/N)) + "% of this simulation, " + "roughly " + str(int( 100*j/num_simulations )) + "% completed overall")
-                #     pass
-
-            # print()
-            # print()
-            # print("### SIMULATION NO.", j + 1, "for", file_name, "###")
-            # print("Initial distance:", pop.get_fittest().get_distance())
-
             # Initialise initial solution
             current_solution = Tour()
             current_solution.generate_individual()
-
-            # print("Initial solution distance:", current_solution.get_distance())
 
             # Set as current best
             best = Tour(current_solution.get_tour())
@@ -259,9 +242,6 @@ class SimulatedAnnealing:
                 # Cool system
                 temp *= 1 - cooling_rate
 
-            # print("Final solution distance:", best.get_distance())
-            # print("Tour:", best)
-
             if best.get_distance() < best_distance:
                 best_distance = best.get_distance()
                 best_solution = best.get_raw_tour()
@@ -274,14 +254,10 @@ class SimulatedAnnealing:
                 # Remove the final comma
                 output = output[:-1]
 
-                # print("\n---FILE OUTPUT---")
-                # print(output)
-                # print("---END OF FILE---")
-
                 best_output = output
 
         t_11 = time()
-        # print()
+
         print("-----")
         print("BEST DISTANCE:", best_distance)
         print("BEST SOLUTION:", best_solution)
@@ -299,11 +275,12 @@ class SimulatedAnnealing:
                 if exc.errno != errno.EEXIST:
                     raise
         with open(output_file_name, "w") as f:
-        #f = open(output_file_name, "w")
             f.write(best_output)
             f.close()
 
 
 if __name__ == "__main__":
-    # sa = SimulatedAnnealing("duo_files/AISearchfile017.txt")
     sa = SimulatedAnnealing(sys.argv[1])
+
+
+

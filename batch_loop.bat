@@ -1,3 +1,7 @@
+:: This file is used to execute the genetic algorithm simulation for all the different tour files
+:: The mutation rate, intial population and mutation method are specified in genetic_algorithm.py
+:: and are only included in the output filepaths here for clarity
+
 python genetic_algorithm_tsp.py "duo_files/AISearchfile012.txt" "tours/genetic/mutations/swap-mutation,mutation-rate-0.035,init-pop-200/tourAISearchfile012.txt"
 python genetic_algorithm_tsp.py "duo_files/AISearchfile017.txt" "tours/genetic/mutations/swap-mutation,mutation-rate-0.035,init-pop-200/tourAISearchfile017.txt"
 python genetic_algorithm_tsp.py "duo_files/AISearchfile021.txt" "tours/genetic/mutations/swap-mutation,mutation-rate-0.035,init-pop-200/tourAISearchfile021.txt"

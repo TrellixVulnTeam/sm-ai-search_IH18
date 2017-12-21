@@ -1,0 +1,13 @@
+tours/annealing/temp-10000,cooling-rate-0.003/tourAISearchfile012.txt
+tours/annealing/temp-1000000,cooling-rate-0.003/tourAISearchfile012.txt
+tours/annealing_batch/temp-1000000,cooling-rate-0.001/tourAISearchfile012.txt
+tours/annealing_batch/temp-1000000,cooling-rate-0.003/tourAISearchfile012.txt
+tours/annealing_batch/temp-1000000,cooling-rate-0.200/tourAISearchfile012.txt
+tours/genetic/mutations/swap-mutation,mutation-rate-0.005/tourAISearchfile012.txt
+tours/genetic/mutations/swap-mutation,mutation-rate-0.015/tourAISearchfile012.txt
+tours/genetic/mutations/swap-mutation,mutation-rate-0.035/tourAISearchfile012.txt
+tours/genetic/mutations/swap-mutation,mutation-rate-0.035,init-pop-200/tourAISearchfile012.txt
+tours/genetic/mutations/swap-mutation,mutation-rate-0.3/tourAISearchfile012.txt
+tours/genetic/mutations/swap-mutation,mutation-rate-0.3,heavy/tourAISearchfile012.txt
+tours/protected/tourAISearchfile012.txt
+tours/tourAISearchfile012.txt
