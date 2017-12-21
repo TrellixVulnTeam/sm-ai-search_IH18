@@ -195,8 +195,8 @@ class Population:
 
 class GA:
     # GA Parameters
-    MUTATION_RATE   = 0.3
-    TOURNAMENT_SIZE = 5
+    MUTATION_RATE   = 0.035
+    TOURNAMENT_SIZE = 10
     ELITISM         = True
 
     def evolve_population(self, pop):
@@ -336,7 +336,7 @@ class TSP_GA:
         t_00 = time()
         for j in range(num_simulations):
             # Initialise population
-            pop = Population(50, True)
+            pop = Population(200, True)
 
             print()
             print()
