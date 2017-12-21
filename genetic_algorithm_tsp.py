@@ -121,6 +121,7 @@ class Tour:
         Get number of cities on our tour.
         :return:
         """
+        # print(len(self.tour))
         return len(self.tour)
 
     def contains_city(self, city):
@@ -194,7 +195,7 @@ class Population:
 
 class GA:
     # GA Parameters
-    MUTATION_RATE   = 0.035
+    MUTATION_RATE   = 0.3
     TOURNAMENT_SIZE = 5
     ELITISM         = True
 
@@ -321,7 +322,7 @@ class TSP_GA:
             tm.set_cities2d(cities2d)
 
         # Generate a list of city numbers
-        for i in range(1, size):
+        for i in range(1, size+1):
             tm.add_city(i)
 
 
@@ -331,7 +332,7 @@ class TSP_GA:
         best_distance = 1000000
         best_solution = []
         best_output = ""
-        num_simulations = 20
+        num_simulations = 6
         t_00 = time()
         for j in range(num_simulations):
             # Initialise population
@@ -390,7 +391,7 @@ class TSP_GA:
         print("-----")
         print("BEST DISTANCE:", best_distance)
         print("BEST SOLUTION:", best_solution)
-        print("TIME TAKEN:", str(round(t_11 - t_00, 3)))
+        print("TIME TAKEN:", str(round(t_11 - t_00, 3)) + " seconds")
         print("BEST OUTPUT:")
         print(best_output)
         print("-----")

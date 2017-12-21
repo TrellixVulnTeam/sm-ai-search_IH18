@@ -76,4 +76,4 @@ if __name__ == "__main__":
     # filename = "duo_files/AISearchfile012.txt"
     tour_data, name, size, cities = get_cities(filename)
     print(tour_data, name, size)
-    [print(cities[x]) for x in range(len(cities))]
+    # [print(cities[x]) for x in range(len(cities))]

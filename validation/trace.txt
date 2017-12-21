@@ -1,0 +1,32 @@
+Wed 12/20/17  11:16:50 PM
+
+directory: vzbf32 ...
+TourfileA...
+AISearchfile012.txt: error: tour lengths don't match (claimed length: 122, actual length: 261)
+AISearchfile017.txt: good (length of tour is 4180)
+AISearchfile021.txt: good (length of tour is 8946)
+AISearchfile026.txt: error: tour lengths don't match (claimed length: 2198, actual length: 2546)
+AISearchfile042.txt: error: tour lengths don't match (claimed length: 2485, actual length: 3038)
+AISearchfile048.txt: good (length of tour is 52744)
+AISearchfile058.txt: good (length of tour is 122877)
+AISearchfile175.txt: error: tour lengths don't match (claimed length: 46008, actual length: 47656)
+AISearchfile180.txt: error: tour lengths don't match (claimed length: 750640, actual length: 1030100)
+AISearchfile535.txt: good (length of tour is 158083)
+
+Best tours:
+
+AISearchfile012.txt: there is no best tour!
+AISearchfile017.txt: best tour has length 4180
+AISearchfile017.txt winners : vzbf32
+AISearchfile021.txt: best tour has length 8946
+AISearchfile021.txt winners : vzbf32
+AISearchfile026.txt: there is no best tour!
+AISearchfile042.txt: there is no best tour!
+AISearchfile048.txt: best tour has length 52744
+AISearchfile048.txt winners : vzbf32
+AISearchfile058.txt: best tour has length 122877
+AISearchfile058.txt winners : vzbf32
+AISearchfile175.txt: there is no best tour!
+AISearchfile180.txt: there is no best tour!
+AISearchfile535.txt: best tour has length 158083
+AISearchfile535.txt winners : vzbf32

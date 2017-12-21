@@ -1,0 +1,4 @@
+NAME = AISearchfile012,
+TOURSIZE = 12,
+LENGTH = 68,
+7,6,1,3,12,10,11,9,4,2,8,5
